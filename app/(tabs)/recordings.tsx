@@ -2,10 +2,10 @@
 import { StyleSheet } from 'react-native';
 import { Text, View } from "react-native";
 
-export default function HomeScreen() {
+export default function RecordingsScreen() {
   return (
     <View>
-      <Text style={styles.text}>메인페이지 입니다</Text>
+      <Text style={styles.text}>녹음페이지 입니다</Text>
     </View>
   );
 }

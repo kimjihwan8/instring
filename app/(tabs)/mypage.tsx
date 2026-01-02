@@ -2,10 +2,10 @@
 import { StyleSheet } from 'react-native';
 import { Text, View } from "react-native";
 
-export default function HomeScreen() {
+export default function MypageScreen() {
   return (
     <View>
-      <Text style={styles.text}>메인페이지 입니다</Text>
+      <Text style={styles.text}>마이페이지 입니다</Text>
     </View>
   );
 }
