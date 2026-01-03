@@ -1,12 +1,13 @@
 
+import { Screen } from '@/components/screen';
 import { StyleSheet } from 'react-native';
 import { Text, View } from "react-native";
 
 export default function RecordingsScreen() {
   return (
-    <View>
+    <Screen>
       <Text style={styles.text}>녹음페이지 입니다</Text>
-    </View>
+    </Screen>
   );
 }
 

@@ -1,16 +1,30 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
 
-import Icon from '@/components/icon';
-import { ICONS } from '@/constants/icons';
-
 import Ionicons from '@expo/vector-icons/Ionicons';
+import { Colors } from '@/constants/theme';
 
 export default function TabLayout() {
 
   return (
     <Tabs
       screenOptions={{
+        tabBarStyle: { 
+          backgroundColor: Colors.background, 
+          height: 89,
+          paddingBottom: 10,  // 글자/아이콘 위치 조정
+      paddingTop: 17,
+          margin: 0,
+          borderTopWidth: 1,
+          borderTopColor: Colors.white, 
+          justifyContent: "center",  
+          alignItems: "center", 
+          
+        },
+        tabBarLabelStyle: {
+      fontSize: 12,
+      marginBottom: 5,    // 글자 위치 조절
+    },
         tabBarActiveTintColor: '#ffffff',
         tabBarInactiveTintColor: '#ffffff',
         headerShown: false,
